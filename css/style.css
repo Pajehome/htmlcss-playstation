@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* header */
 .header-top{
     width: 100%;
@@ -29,8 +32,70 @@
     padding: 8px 12px;
     border-radius: 22px; 
 }
-  .btn-accedi:hover {
+.btn-accedi:hover {
     background-color: #ffffff;
     color: #1F1F1F;
     border: 1px solid #1F1F1F;
+}
+#jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+
+}
+.btn-red{
+    background-color: #ff0101;
+    border: 2px solid rgb(255, 0, 0);
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 22px; 
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.btn-red:hover {
+    background-color: #ffffff;
+    color: #dd1212;
+    border: 2px solid #d41818;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.button {
+    font-size: 15px;
+    color: #ffffff;
+    background: red;
+    border: none;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 4px 18px;
+    }
+  
+.button::before {
+    content: '';
+    border-radius: 1000px;
+    width: calc(100% + 6px);
+    height: calc(100% + 6px);
+    border: 2px solid red;
+    box-shadow: 0 0 20px #0A121A;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+}
+.button:hover, .button:focus {
+    color: white;
+ }
+.button:hover::before, button:focus::before {
+    opacity: 1;
+}
+
+.button:hover::after, button:focus::after {
+    animation: none;
+    display: none;
 }

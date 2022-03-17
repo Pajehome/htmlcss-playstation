@@ -15,4 +15,22 @@
 }
 .fa-magnifying-glass{
     font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.btn-accedi {
+    background-color: #1F1F1F;
+    border: 1px solid white;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 22px; 
+}
+  .btn-accedi:hover {
+    background-color: #ffffff;
+    color: #1F1F1F;
+    border: 1px solid #1F1F1F;
 }

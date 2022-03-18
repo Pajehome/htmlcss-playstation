@@ -92,3 +92,28 @@
     border: 2px solid blue;
     bottom: 20px;
 }
+.acc_ps5{
+    opacity: 0.5;
+}
+.acc_ps5:hover{
+   opacity: 1; 
+   border-bottom: 3px solid blue;
+}
+.img_ps5-acc{
+    width: 15vw;
+    
+}
+@media screen and (max-width: 576px) {
+    .p_ps5{
+       display: none;
+    }
+    .img_ps5-acc{
+        width: 150px;
+    }
+}
+@media screen and (min-width: 576px) {
+    #plo{
+        flex-wrap: nowrap;
+    }
+}
+

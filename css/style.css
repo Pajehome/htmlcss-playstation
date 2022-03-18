@@ -81,13 +81,14 @@
     animation: none;
     display: none;
 }
-
 .t-img{
     border: 1px solid rgb(252, 252, 252);
     border-radius: 14px; 
-    padding:4px
+    padding:4px;
+    position: relative;
 }
 .t-img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 50, 186, 0.5);
     border: 2px solid blue;
+    bottom: 20px;
 }

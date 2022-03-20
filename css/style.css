@@ -36,6 +36,7 @@ header{
 }
 .btn-login{
     font-size: 15px;
+    font-weight: 600;
     color: #a3a3a3;
     background: rgb(29, 29, 29);
     border: none;
@@ -44,7 +45,7 @@ header{
     cursor: pointer;
     outline: none;
     position: relative;
-    padding: 4px 18px;
+    padding: 5px 30px;
     }
 .btn-login::before {
     content: '';
